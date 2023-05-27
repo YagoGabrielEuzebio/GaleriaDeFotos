@@ -5,7 +5,7 @@
         height: 10%;
     }
 
-}
+}   
 
 /*IPads e Tablets*/
 
@@ -145,7 +145,7 @@
 
     .principal__fotos {
         height: 100%;
-        max-height: 860;
+        max-height: 1000px;
     }
 
     .principal__fotos__foto {

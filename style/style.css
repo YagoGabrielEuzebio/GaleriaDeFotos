@@ -43,7 +43,7 @@ body {
 .cabecalho__menu > p {
     text-decoration: none;
     font-style: none;
-    font-size: 26px;
+    font-size: 300%;
 
     color: white;
     font-family: var(--fonte-titulo);
@@ -51,7 +51,7 @@ body {
 }
 
 .cabecalho__menu > p:hover {
-    font-size: 30px;
+    font-size: 400%;
     text-decoration: underline;
 
     transition: 0.8s;
@@ -105,6 +105,8 @@ strong {
 .principal__fotos {
     display: grid;
     box-sizing: border-box;
+
+    height: 100%;
 
     margin: 0 auto;
     grid-template-columns: 1fr 1fr;
